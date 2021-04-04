@@ -22,9 +22,10 @@ h1 {
   font-weight: 500;
 }
 
-.app-container {
+form {
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   width: 400px;
+  max-width: 90%;
 }
 
 .todo-input {
@@ -43,10 +44,13 @@ h1 {
   outline-color: #b99de2;
 }
 
-.todo-container {
+.todo-list {
   width: 100%;
   max-height: 300px;
   overflow-y: scroll;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .todo-item {
@@ -56,6 +60,7 @@ h1 {
   border-top: 1px solid #eee;
   font-size: 1.2rem;
   width: 100%;
+  cursor: pointer;
 }
 
 .todo-item.done {
