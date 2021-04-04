@@ -27,7 +27,7 @@ h1 {
   width: 400px;
 }
 
-input {
+.todo-input {
   padding: 10px 25px;
   font-size: 1.7rem;
   border: none;
@@ -35,8 +35,12 @@ input {
   width: 100%;
 }
 
-input::placeholder {
+.todo-input::placeholder {
   color: #ccc;
+}
+
+.todo-input:focus {
+  outline-color: #b99de2;
 }
 
 .todo-list {
