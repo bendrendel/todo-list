@@ -22,7 +22,7 @@ h1 {
   font-weight: 500;
 }
 
-.todo-container {
+.app-container {
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   width: 400px;
 }
@@ -43,7 +43,7 @@ h1 {
   outline-color: #b99de2;
 }
 
-.todo-list {
+.todo-container {
   width: 100%;
   max-height: 300px;
   overflow-y: scroll;
